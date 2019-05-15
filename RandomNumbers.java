@@ -1,4 +1,4 @@
-package opt1;
+package Opt11;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class RandomNumbers{
 		N = M;
 	}
 	public static void main(String[] args){
-		System.out.println("Enter your name and press <Enter>:");
+		System.out.println("Enter the number of random numbers");
 		Scanner scan = new Scanner(System.in);
 		RandomNumbers randNum = new RandomNumbers(scan.nextInt());
 		scan.close();

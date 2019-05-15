@@ -1,4 +1,4 @@
-package opt1;
+package Opt11;
 import java.util.Scanner;
 
 public class Hello{
