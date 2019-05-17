@@ -1,4 +1,5 @@
-package Opt11;
+package Opt11.kakimzhanova.opt1.rand;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,7 +14,6 @@ public class RandomNumbers{
 		Scanner scan = new Scanner(System.in);
 		RandomNumbers randNum = new RandomNumbers(scan.nextInt());
 		scan.close();
-
 		randNum.printRandomNumbers();
 		randNum.printlnRandomNumbers();
 	}

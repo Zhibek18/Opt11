@@ -1,4 +1,4 @@
-package Opt11;
+package Opt11.kakimzhanova.opt1.hello;
 import java.util.Scanner;
 
 public class Hello{
